@@ -1,0 +1,23 @@
+.install-banner {
+  position: fixed;
+  z-index: 20;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  max-width: 520px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 14px;
+  background: #20342a;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(19, 34, 25, .22);
+  font-size: 13px;
+  font-weight: 600;
+}
+.install-banner span { flex: 1; }
+.install-banner button { background: #fff; color: #20342a; border-radius: 7px; padding: 8px 11px; font-weight: 700; font-size: 12px; }
+.install-banner .dismiss { padding: 4px 7px; background: transparent; color: #dce7df; font-size: 19px; font-weight: 400; }
+@media (max-width: 480px) { .install-banner { bottom: 10px; left: 10px; right: 10px; } }
